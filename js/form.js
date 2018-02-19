@@ -15,11 +15,11 @@ $('#send').click(function(){
    email = $('#email').val('');
    phone = $('#celular').val('');
    message = $('#mensaje').val('');
+   alert('se ha enviado correctamente');
   // envio del correo usando la librería
   emailjs.send("gmail","template_BZGiJMnO",{nombre: name.val(), correo: email.val(), celular: phone.val(), mensaje: message.val()})
   .then(function(response) {
     // se ejecuta de manera sincronica esta función que vacia los elementos del arreglo
-    alert('se ha enviado correctamente');
     console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
   },function(err) {console.log("FAILED. error=", err);});
 
