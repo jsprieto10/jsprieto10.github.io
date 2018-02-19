@@ -21,7 +21,6 @@ $('#send').click(function(){
     phone = $('#celular').val('');
     message = $('#mensaje').val('');
     
->>>>>>> parent of f16cd3c... Update form.js
     console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
   },function(err) {console.log("FAILED. error=", err);});
 
