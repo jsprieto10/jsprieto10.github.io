@@ -8,7 +8,7 @@ este proyecto esta hecho con html, css, javascript y una librería de javascript
 El proyecto constanta de 3 carpetas CSS, img, js y un archivo en la raiz llamado index.html, el index.html es el archivo principal, en las carpetas se encuentran componentes de css, imagentes y scripts respectivamente
 
 ## Versión
-v.0.1
+v.1
 
 ## autores
 Juan Sebastian Prieto
